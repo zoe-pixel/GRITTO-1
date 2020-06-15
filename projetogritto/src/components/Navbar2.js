@@ -210,7 +210,7 @@ export default function PrimarySearchAppBar() {
 
     return (
         <div className={classes.grow}>
-            <AppBar /*position="static"*/ style={{ background: "#3f51b5" }}>
+            <AppBar /*position="static"*/ style={{ background: "#7BB0FF" }}>
                 <Toolbar>
                     <IconButton onClick={toggleSlider("left", true)}>
                         <MenuIcon style={{ color: "white"}} />

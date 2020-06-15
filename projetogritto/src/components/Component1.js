@@ -26,7 +26,7 @@ const InputField = withStyles({
     root: {                 
          
         "& label.Mui-focused": {            
-            color: "#3f51b5",
+            color: "#7BB0FF",
         },
         "& label": {            
             color: "#a0a0a0",
@@ -39,7 +39,7 @@ const InputField = withStyles({
                 borderColor: "#a0a0a0",
             },                
             "&.Mui-focused fieldset": {               
-                borderColor: "#3f51b5",
+                borderColor: "#7BB0FF",
             },
         },
     },
@@ -242,7 +242,7 @@ export default function Formulario() {
                         </Grid>
                         <Grid item md={4}></Grid>                        
                         <Grid item md={4}>
-                        <Button variant="contained" color="black" size="large">ENVIAR</Button>{' '} 
+                        <Button variant="contained" color="inherit" size="large">ENVIAR</Button>{' '} 
                             </Grid>                        
                         <Grid item md={4}></Grid>                        
                         <Grid item md={4}></Grid>                       

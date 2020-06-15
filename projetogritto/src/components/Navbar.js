@@ -95,7 +95,7 @@ const Navbar = () => {
     return (
         <>
             <Box component="nav">
-                <AppBar style={{ background: "#3f51b5", maxWidth: "100%" }}>
+                <AppBar style={{ background: "#7BB0FF", maxWidth: "100%" }}>
                     <Toolbar>
                         <IconButton onClick={toggleSlider("left", true)}>
                             <Menu style={{ color: "white" }} />
