@@ -9,8 +9,8 @@ import Component3 from '../components/Component3';
 import PageNotFound from './PageNotFound';
 
 
-function App() {
-    return (    
+export default () => (
+     
         <Router>  
             <CssBaseline />
             <Switch>               
@@ -21,7 +21,7 @@ function App() {
                 <Route path="*" component={PageNotFound} />
             </Switch>  
         </Router>                                             
-    );
-}
+  
+);
 
-export default App;
+//export default App;
